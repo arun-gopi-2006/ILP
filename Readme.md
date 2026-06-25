@@ -436,6 +436,7 @@ dag.png
 
 ## Current Limitations
 
+- All instructions are assumed to have a latency of one clock cycle during ILP estimation.
 - Memory dependencies are tracked using exact memory addresses.
 - Multi-threaded execution is not currently supported.
 - Dependency graph export is limited to the collected execution trace.
